@@ -15,7 +15,7 @@ The following dependencies must be installed to successfully build the solution;
 
 To use the compiled binaries, you must own the game. The C&C Remastered Collection is available for purchase on [EA App](https://www.ea.com/games/command-and-conquer/command-and-conquer-remastered/buy/pc) or [Steam](https://store.steampowered.com/app/1213210/Command__Conquer_Remastered_Collection/).
 
-The quickest way to build all configurations in the project is open [CnCRemastered.sln](CnCRemastered.sln) in Microsoft Visual Studio (we recommend using 2017 as later versions report an error due to a packing mismatch with the Windows SDK headers) and select “Build” from the toolbar, then select “Batch Build”. Click the "Select All" button, then click the "Rebuild" button.
+The quickest way to build all configurations in the project is open [CnCRemastered.sln](CnCRemastered.sln) in Microsoft Visual Studio and select “Build” from the toolbar, then select “Batch Build”. Click the "Select All" button, then click the "Rebuild" button.
 
 When the solution has finished building, the compiled binaries can be found in the newly created `bin` folder in the root of the repository.
 
